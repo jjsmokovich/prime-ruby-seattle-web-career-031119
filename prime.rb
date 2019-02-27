@@ -1,16 +1,3 @@
-def prime?(num)
-  
-
-
-
-
-
-
-
-
-
-
-
 
 
 def prime?(int)
