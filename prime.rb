@@ -1,6 +1,7 @@
-def prime?(n)
-  (2..(n - 1)).each do |x|
-    return false if num % x == 0
+def prime?(int)
+  (2..(int - 1)).each do |x|
+    return false if int % x == 0
   end
   true
 end
+
