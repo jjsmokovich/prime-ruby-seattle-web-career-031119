@@ -1,4 +1,6 @@
-
+def prime?(int)
+  if int > 1 
+    (2..int - 1).each
 
 def prime?(int)
   if int > 1
