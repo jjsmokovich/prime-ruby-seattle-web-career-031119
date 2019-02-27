@@ -3,7 +3,4 @@ def prime?(int)
     (2..int - 1).all? do |num|
       int % num != 0
     end
-
-  end
-  false
-end
+  
