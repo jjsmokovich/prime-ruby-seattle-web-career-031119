@@ -1,2 +1,2 @@
 def prime?(int)
-  start 2
+  while int >= 1
