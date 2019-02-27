@@ -1,5 +1,6 @@
 def prime?(n)
-  if n >= 2
+  start 2
+  if n >= 1
     (2..n - 1).all? do |num|
       n % num != 0
     end
