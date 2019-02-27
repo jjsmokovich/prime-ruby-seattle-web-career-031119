@@ -4,3 +4,7 @@ def prime?(int)
       int % num != 0
     end
   
+  else
+    return false
+  end
+end
