@@ -1,4 +1,4 @@
 def is_prime?(num)
-  start 2
+  (2..num)
   
 
