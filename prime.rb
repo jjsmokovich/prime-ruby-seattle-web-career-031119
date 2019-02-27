@@ -1,10 +1,12 @@
 def prime?(int)
-  (2..(int - 1)).each do |x|
-    return false if int % x == 0
+  if int % x == 0
+    return false
+  else
+
+
+
+
+ (2..(int - 1)).each do |x|
   end
   true
 end
-
-
-
-
