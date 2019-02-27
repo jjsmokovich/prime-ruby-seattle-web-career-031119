@@ -1,4 +1,4 @@
 prime?(n)
-  start 
+  
 end
   
